@@ -1,6 +1,6 @@
 CC="cc"
 CFLAGS="-Wall -Wextra -Wpedantic -std=c99"
-LDFLAGS="-lglfw3 -lGL -lm"
+LDFLAGS="-lglfw3 -lGL -lGLU -lm"
 BDIR="build/linux"
 SDIR="src"
 
