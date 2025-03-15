@@ -1,12 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -Wpedantic -std=c99
-LDFLAGS=-llua -lm
+LDFLAGS=
 
-horror: *.o
-	$(CC) *.o $(LDFLAGS) -o horror
+horror:
+	$(CC) main.c $(LDFLAGS) -o horror
 
-main.o: main.c main.h
-	$(CC) -c main.c $(CFLAGS) -o main.o
-
-clean:
-	rm -f ./*.o horror

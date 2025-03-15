@@ -1,0 +1,21 @@
+ __________  ___    ___  _________  ____   ___   ___  ____  _________  ____   ___  __________
+/         / /  /  /   / /__   ___/ /   |  /  /  /  /_/ __/ /__   ___/ /   |  /  / /  _______/ 
+---   ---  /  /---   /    /  /    /    | /  /  /    __/      /  /    /    | /  / /  / _____
+  /  /    /   ___   /    /  /    /  /| |/  /  /     |       /  /    /  /| |/  / /  / /_   /
+ /  /    /  /   /  /  __/  /__  /  / |    /  /  /|  |   ___/  /__  /  / |    / /  /___/  /
+/__/    /__/   /__/  /_______/ /__/  |___/  /__/ |__|  /________/ /__/  |___/ /_________/
+
+A- dynamically loaded levels
+- game saving
+- combat system
+- inventory
+- 3rd person camera movement
+- controller support
+- dynamic ui
+- start/settings menu
+- dynamic audio/music
+- 3d model and skeletal animation
+- ps1 support
+- story
+- enemies/npc ai
+- character customization
