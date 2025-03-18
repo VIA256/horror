@@ -1,7 +1,12 @@
-CC=gcc
-CFLAGS=-Wall -Wextra -Wpedantic -std=c99
-LDFLAGS=
+CXX=g++
+CXXFLAGS=
+LDFLAGS=-lIrrlicht -lGL -lXxf86vm -lXext -lX11 -lXcursor
 
-horror:
-	$(CC) main.c $(LDFLAGS) -o horror
+horror: game.o main.cpp
+	$(CXX) game.o main.cpp $(CXXFLAGS) $(LDFLAGS) -o horror
 
+game.o: game.cpp game.hpp
+	$(CXX) -c game.cpp $(CXXFLAGS) -o game.o
+
+clean:
+	rm *.o horror

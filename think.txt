@@ -1,4 +1,4 @@
- __________  ___    ___  _________  ____   ___   ___  ____  _________  ____   ___  __________
+ __________  ___   ____  _________  ____   ___   ___  ____  _________  ____   ___  __________
 /         / /  /  /   / /__   ___/ /   |  /  /  /  /_/ __/ /__   ___/ /   |  /  / /  _______/ 
 ---   ---  /  /---   /    /  /    /    | /  /  /    __/      /  /    /    | /  / /  / _____
   /  /    /   ___   /    /  /    /  /| |/  /  /     |       /  /    /  /| |/  / /  / /_   /
@@ -6,6 +6,8 @@
 /__/    /__/   /__/  /_______/ /__/  |___/  /__/ |__|  /________/ /__/  |___/ /_________/
 
 A- dynamically loaded levels
+	- pk3 maps
+	- all maps stored in dat/pk3
 - game saving
 - combat system
 - inventory
@@ -19,3 +21,5 @@ A- dynamically loaded levels
 - story
 - enemies/npc ai
 - character customization
+- proper logging
+- multiple language support
